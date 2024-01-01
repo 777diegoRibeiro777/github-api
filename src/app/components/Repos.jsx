@@ -60,8 +60,8 @@ const Repos = ({ reposUrl }) => {
 						<Flex
 							key={repo.id}
 							padding={4}
-							bg={"RGBA(0, 0, 0, 0.08)"}
-							_hover={{ bg: "RGBA(0, 0, 0, 0.24)" }}
+							bg={"#FFFFFF"}
+							_hover={{ bg: "whiteAlpha.800" }}
 							my={4}
 							px={10}
 							gap={4}
