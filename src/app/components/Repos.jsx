@@ -41,7 +41,7 @@ const Repos = ({ reposUrl }) => {
 				letterSpacing={1.5}
 				fontSize={"3xl"}
 				fontWeight={"bold"}
-				color={"green.400"}
+				color={"purple.400"}
 				mt={4}
 			>
 				REPOSITORIES
