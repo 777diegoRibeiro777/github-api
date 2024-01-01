@@ -18,7 +18,7 @@ Seção com os Repositórios.
 </p>
 
 <p align="center">
-  <a href="" style="font-weight: bold;" target="_blank">💎 Link para o projeto.</a>
+  <a href="https://github-api-eta-three.vercel.app/" style="font-weight: bold;" target="_blank">💎 Link para o projeto.</a>
 </p>
 
 ## 🚀 Tecnologias
