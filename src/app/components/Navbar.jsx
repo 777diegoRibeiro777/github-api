@@ -11,7 +11,7 @@ const Navbar = () => {
 			</Box>
 			<Box>
 				<Button size='md' colorScheme='whatsapp' onClick={onOpen}>
-					Search History
+					Pesquisar histórico
 				</Button>
 			</Box>
 

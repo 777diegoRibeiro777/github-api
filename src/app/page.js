@@ -1,5 +1,5 @@
 "use client";
-import { Button, Container, Text } from "@/app/chakra";
+import { Container, Text } from "@/app/chakra";
 import Navbar from "./components/Navbar";
 import Search from "./components/Search";
 import { useState } from "react";
@@ -13,7 +13,7 @@ export default function Home() {
 		<Container maxW='container.lg'>
 			<Navbar />
 			<Text fontSize={"2xl"} textAlign={"center"} my={4}>
-				Search users on Github
+				Pesquisar usuários no Github
 			</Text>
 			<Search setUserData={(res) => setUserData(res)} setLoading={setLoading} />
 

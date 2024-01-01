@@ -44,7 +44,7 @@ const Repos = ({ reposUrl }) => {
 				color={"purple.400"}
 				mt={4}
 			>
-				REPOSITORIES
+				REPOSITÓRIOS
 			</Text>
 			{loading && (
 				<Flex justifyContent={"center"}>
@@ -82,7 +82,7 @@ const Repos = ({ reposUrl }) => {
 									px={1}
 									mt={1}
 								>
-									Language: {repo.language || "None"}
+									Linguagem: {repo.language || "None"}
 								</Badge>
 							</Flex>
 
@@ -104,7 +104,7 @@ const Repos = ({ reposUrl }) => {
 			{showMore && (
 				<Flex justifyContent={"center"} my={4}>
 					<Button size='md' colorScheme='whatsapp' onClick={() => setShowMore(false)}>
-						Show Less
+						Mostrar menos 
 					</Button>
 				</Flex>
 			)}
@@ -112,7 +112,7 @@ const Repos = ({ reposUrl }) => {
 			{!showMore && repos.length > 5 && (
 				<Flex justifyContent={"center"} my={4}>
 					<Button size='md' colorScheme='whatsapp' onClick={() => setShowMore(true)}>
-						Show More
+						Mostrar mais
 					</Button>
 				</Flex>
 			)}

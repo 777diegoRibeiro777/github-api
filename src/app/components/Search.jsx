@@ -66,7 +66,7 @@ const Search = ({ setUserData, setLoading }) => {
 				onChange={(e) => setQuery(e.target.value)}
 			/>
 			<Button size='md' type='submit' colorScheme='whatsapp' mt={4} disabled={!query} opacity={!query ? 0.5 : 1}>
-				Search
+				Pesquisar
 			</Button>
 		</form>
 	);

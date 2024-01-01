@@ -45,13 +45,13 @@ const HistoryModal = ({ isOpen, onClose }) => {
 		<Modal isOpen={isOpen} onClose={onClose}>
 			<ModalOverlay />
 			<ModalContent bg={"gray.900"}>
-				<ModalHeader>Search History</ModalHeader>
+				<ModalHeader>Pesquisar História</ModalHeader>
 				<ModalBody>
-					<Text>Users you searched for:</Text>
+					<Text>Usuários que você pesquisou:</Text>
 					<VStack gap={4} maxHeight={300} overflowY={"auto"} my={4}>
 						{searchHistory.length === 0 && (
 							<Text color={"gray.400"} fontSize={"sm"} fontWeight={"bold"}>
-								No users searched yet
+								Nenhum usuário pesquisado ainda
 							</Text>
 						)}
 
@@ -88,7 +88,7 @@ const HistoryModal = ({ isOpen, onClose }) => {
 										borderRadius={4}
 										_hover={{ textDecoration: "none", bg: "whatsapp.300" }}
 									>
-										Visit
+										Visitar
 									</Link>
 									<DeleteIcon color='red.400' onClick={() => handleDeleteUser(user.id)} />
 								</Flex>

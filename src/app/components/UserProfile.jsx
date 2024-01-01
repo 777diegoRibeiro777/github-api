@@ -9,7 +9,7 @@ const UserProfile = ({ userData }) => {
 					<Avatar size={"2xl"} name={userData.name} src={userData.avatar_url} />
 					<Button colorScheme='whatsapp'>
 						<a href={userData.html_url} target='_blank'>
-							View Profile
+							Ver Perfil
 						</a>
 					</Button>
 				</VStack>
@@ -40,13 +40,13 @@ const UserProfile = ({ userData }) => {
 					<Box>
 						<Text fontSize={"md"}>
 							<Text as={"span"} fontWeight={"bold"} color={"purple.200"} mr={1}>
-								Company:
+								Companhia:
 							</Text>
 							{userData.company || "Not Specified"}
 						</Text>
 						<Text fontSize={"md"}>
 							<Text as={"span"} fontWeight={"bold"} color={"purple.200"} mr={1}>
-								Location:
+								Localidade:
 							</Text>
 							{userData.location || "Not Specified"}
 						</Text>
@@ -66,7 +66,7 @@ const UserProfile = ({ userData }) => {
 
 						<Text fontSize={"md"}>
 							<Text as={"span"} fontWeight={"bold"} color={"purple.200"} mr={1}>
-								Member Since:
+								Membro desde:
 							</Text>
 							{new Date(userData.created_at).toLocaleDateString()}
 						</Text>
