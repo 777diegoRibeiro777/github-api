@@ -39,7 +39,7 @@ Tela para mostrar os resultados.
 </p>
 
 <p align="center">
-  <a href="https://interactive-quiz-ten.vercel.app/" style="font-weight: bold;" target="_blank">💎 Link para o projeto.</a>
+  <a href="https://github-7aslxup7n-777diegoribeiro777.vercel.app/" style="font-weight: bold;" target="_blank">💎 Link para o projeto.</a>
 </p>
 
 ## 🚀 Tecnologias

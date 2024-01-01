@@ -18,7 +18,7 @@ const Search = ({ setUserData, setLoading }) => {
 			if (data.message) {
 				return toast({
 					title: "Error",
-					description: data.message === "Not Found" ? "User not found" : data.message,
+					description: data.message === "Não encontrado" ? "Usuário não encontrado" : data.message,
 					status: "error",
 					duration: 3000,
 					isClosable: true,
@@ -60,7 +60,7 @@ const Search = ({ setUserData, setLoading }) => {
 		<form onSubmit={handleSubmit}>
 			<Input
 				variant={"outline"}
-				placeholder={"Type a username (i.e. burakorkmez)"}
+				placeholder={"Digite um nome de usuário (ex: 777diegoRibeiro777)"}
 				focusBorderColor='green.500'
 				value={query}
 				onChange={(e) => setQuery(e.target.value)}
