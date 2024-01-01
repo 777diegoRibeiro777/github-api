@@ -4,7 +4,7 @@ import Repos from "./Repos";
 const UserProfile = ({ userData }) => {
 	return (
 		<>
-			<Flex my={16} border={"2px solid"} borderColor={"green.500"} borderRadius={4} padding={8}>
+			<Flex my={16} border={"2px solid"} borderColor={"purple.500"} borderRadius={4} padding={8}>
 				<VStack gap={5}>
 					<Avatar size={"2xl"} name={userData.name} src={userData.avatar_url} />
 					<Button colorScheme='whatsapp'>
@@ -30,29 +30,29 @@ const UserProfile = ({ userData }) => {
 						</Badge>
 					</Flex>
 
-					<Text fontSize={"2xl"} fontWeight={"bold"} mt={4} color={"green.400"}>
+					<Text fontSize={"2xl"} fontWeight={"bold"} mt={4} color={"purple.400"}>
 						{userData.name}
 					</Text>
-					<Text fontSize={"md"} fontWeight={"bold"} color={"green.500"}>
+					<Text fontSize={"md"} fontWeight={"bold"} color={"purple.500"}>
 						{userData.bio}
 					</Text>
 
 					<Box>
 						<Text fontSize={"md"}>
-							<Text as={"span"} fontWeight={"bold"} color={"green.200"} mr={1}>
+							<Text as={"span"} fontWeight={"bold"} color={"purple.200"} mr={1}>
 								Company:
 							</Text>
 							{userData.company || "Not Specified"}
 						</Text>
 						<Text fontSize={"md"}>
-							<Text as={"span"} fontWeight={"bold"} color={"green.200"} mr={1}>
+							<Text as={"span"} fontWeight={"bold"} color={"purple.200"} mr={1}>
 								Location:
 							</Text>
 							{userData.location || "Not Specified"}
 						</Text>
 
 						<Text fontSize={"md"}>
-							<Text as={"span"} fontWeight={"bold"} color={"green.200"} mr={1}>
+							<Text as={"span"} fontWeight={"bold"} color={"purple.200"} mr={1}>
 								Blog / Website:
 							</Text>
 							{userData.blog ? (
@@ -65,7 +65,7 @@ const UserProfile = ({ userData }) => {
 						</Text>
 
 						<Text fontSize={"md"}>
-							<Text as={"span"} fontWeight={"bold"} color={"green.200"} mr={1}>
+							<Text as={"span"} fontWeight={"bold"} color={"purple.200"} mr={1}>
 								Member Since:
 							</Text>
 							{new Date(userData.created_at).toLocaleDateString()}
