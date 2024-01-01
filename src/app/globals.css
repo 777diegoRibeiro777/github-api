@@ -1,0 +1,89 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+/* Cool infinite background scrolling animation.
+ * Twitter: @kootoopas
+ */
+/* Exo thin font from Google. */
+@import url(https://fonts.googleapis.com/css?family=Exo:100);
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 400px 400px;
+    }
+    }
+    @-moz-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 400px 400px;
+    }
+    }
+    @-o-keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 400px 400px;
+    }
+    }
+    @keyframes bg-scrolling-reverse {
+    100% {
+        background-position: 400px 400px;
+    }
+    }
+    @-webkit-keyframes bg-scrolling {
+    0% {
+        background-position: 400px 400px;
+    }
+    }
+    @-moz-keyframes bg-scrolling {
+    0% {
+        background-position: 400px 400px;
+    }
+    }
+    @-o-keyframes bg-scrolling {
+    0% {
+        background-position: 400px 400px;
+    }
+    }
+    @keyframes bg-scrolling {
+    0% {
+        background-position: 400px 400px;
+    }
+}
+/* Main styles */
+body {
+	color: #fff !important;
+  /* img size is 50x50 */
+    background: url("./y-so-serious.png") repeat 0 0;
+    -webkit-animation: bg-scrolling-reverse 2.92s infinite;
+  /* Safari 4+ */
+    -moz-animation: bg-scrolling-reverse 2.92s infinite;
+  /* Fx 5+ */
+    -o-animation: bg-scrolling-reverse 2.92s infinite;
+  /* Opera 12+ */
+    animation: bg-scrolling-reverse 2.92s infinite;
+  /* IE 10+ */
+    -webkit-animation-timing-function: linear;
+    -moz-animation-timing-function: linear;
+    -o-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+
+/* dark mode thin scroll bar */
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
