@@ -55,7 +55,7 @@
 body {
 	color: #fff !important;
   /* img size is 50x50 */
-    background: url("./y-so-serious.png") repeat 0 0;
+    background: url("/src/img/y-so-serious.png") repeat 0 0;
     -webkit-animation: bg-scrolling-reverse 3.92s infinite;
   /* Safari 4+ */
     -moz-animation: bg-scrolling-reverse 3.92s infinite;

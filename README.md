@@ -6,40 +6,19 @@ Projeto desenvolvido no treinamento programador fullstack (Realizado pelo SENAI)
 </p>
 
 <br>
-  <img alt="projeto DevLinks" src="./img/tela inicial.png" width="100%">
+  <img alt="projeto DevLinks" src="./src/img/telaInicial.png" width="100%">
 <p align="center">
-Tela Inicial de criação do Quiz.
+Tela Inicial.
 </p>
 
 <br>
-  <img alt="projeto DevLinks" src="./img/QuizComPerguntas.png" width="100%">
+  <img alt="projeto DevLinks" src="./src/img/secaoRepositorio.png" width="100%">
 <p align="center">
-Quiz com perguntas.
-</p>
-
-<br>
-  <img alt="projeto DevLinks" src="./img/QuizSemRespostaSelecionada.png" width="100%">
-<p align="center">
-Filtro para não deixar uma resposta vazia.
-</p>
-
-<br>
-  <img alt="projeto DevLinks" src="./img/QuizTrue&False.png" width="100%">
-<p align="center">
-Quiz com questões True/False.
-</p>
-
-<br>
-  <img alt="projeto DevLinks" src="./img/TelaResultados.png" width="100%">
-<p align="center">
-Tela para mostrar os resultados.
-</p>
-
-
+Seção com os Repositórios.
 </p>
 
 <p align="center">
-  <a href="https://github-7aslxup7n-777diegoribeiro777.vercel.app/" style="font-weight: bold;" target="_blank">💎 Link para o projeto.</a>
+  <a href="" style="font-weight: bold;" target="_blank">💎 Link para o projeto.</a>
 </p>
 
 ## 🚀 Tecnologias
@@ -49,17 +28,15 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Javascript
 - React
 - Chakra UI
+- Next Js
 
 ## 💻 Projeto
 
-O projeto tem como objetivo a criação de um quiz interativo utilizando Typescript e React. Para agregar dinamismo ao quiz, foi realizado o consumo da API "Trivia API". No entanto, é importante destacar que essa API retorna perguntas e respostas apenas em inglês. Em resposta a essa limitação, ajustei a estrutura do site para adequá-la à língua da API.
+O projeto tem como principal objetivo desenvolver um programa capaz de consumir a API do GitHub para apresentar informações detalhadas sobre um usuário específico. Para alcançar esse propósito, optou-se pelo uso das tecnologias Javascript, React, Next.js e Chakra UI. A escolha dessas ferramentas visa agilizar e dinamizar o processo de criação do projeto.
 
-Um elemento fundamental no desenvolvimento foi a utilização do Bulma, um framework CSS que simplificou e estabeleceu um padrão para o estilo do projeto. A integração do Bulma proporcionou uma estética coesa e atrativa ao quiz, contribuindo significativamente para a experiência do usuário.
+Destacando-se, em particular, o papel fundamental do Chakra UI, que desempenhou um papel crucial ao padronizar e aprimorar o design do projeto de forma coerente. A integração desta biblioteca facilitou a execução das tarefas, proporcionando uma experiência de desenvolvimento mais eficiente.
 
-No âmbito do desenvolvimento, Typescript e React desempenharam papéis cruciais. A estruturação das páginas, a tipagem de arquivos, a criação de componentes e o tratamento das informações provenientes da API foram facilitados pela combinação dessas tecnologias. A adoção de Typescript permitiu uma abordagem mais segura e robusta no desenvolvimento, tornando mais fácil a identificação e correção de erros durante o processo.
-
-Ao unir essas tecnologias e ferramentas, foi possível criar um quiz interativo, estilizado de forma atraente e com uma base sólida de desenvolvimento. O projeto destaca a sinergia entre Typescript, React, Bulma e a API utilizada, resultando em uma aplicação dinâmica, responsiva e envolvente para os usuários.
-
+Este projeto proporcionou uma oportunidade valiosa para aprofundar os conhecimentos em consumo de dados por meio de uma API e a apresentação dessas informações. Ao final, a combinação estratégica dessas tecnologias contribuiu para uma implementação eficaz e uma experiência de usuário mais refinada.
 
 ## 🔖 Layout
 
