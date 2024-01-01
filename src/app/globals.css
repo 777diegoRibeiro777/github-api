@@ -56,13 +56,13 @@ body {
 	color: #fff !important;
   /* img size is 50x50 */
     background: url("./y-so-serious.png") repeat 0 0;
-    -webkit-animation: bg-scrolling-reverse 2.92s infinite;
+    -webkit-animation: bg-scrolling-reverse 3.92s infinite;
   /* Safari 4+ */
-    -moz-animation: bg-scrolling-reverse 2.92s infinite;
+    -moz-animation: bg-scrolling-reverse 3.92s infinite;
   /* Fx 5+ */
-    -o-animation: bg-scrolling-reverse 2.92s infinite;
+    -o-animation: bg-scrolling-reverse 3.92s infinite;
   /* Opera 12+ */
-    animation: bg-scrolling-reverse 2.92s infinite;
+    animation: bg-scrolling-reverse 3.92s infinite;
   /* IE 10+ */
     -webkit-animation-timing-function: linear;
     -moz-animation-timing-function: linear;
